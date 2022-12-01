@@ -9,19 +9,20 @@ Console.WriteLine("Введите второе число");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число");
 int c = Convert.ToInt32(Console.ReadLine());
+int max = 0;
 if(a > b)
 {
-    int max = a;
+    max = a;
 }
 else
 {
     if(c >= b)
     {
-        int max = c;
+        max = c;
     }
     else
     {
-        int max = b;
+        max = b;
     }
 }
 Console.WriteLine(max);
