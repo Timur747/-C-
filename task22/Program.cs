@@ -5,7 +5,9 @@
 Console.WriteLine("Введите число");
 int N = Convert.ToInt32(Console.ReadLine());
 int a = 1;
-for(; a <= N; a++)
+              //a = a + 1
+Console.WriteLine($"Таблица квадратов от числа 1 до числа {N}:");
+for(;a <= N; a++)
 {
-    Console.WriteLine($"Квадрат чисел от 1 до {N} {a * a}");
+    Console.WriteLine($"{a * a}");
 }
